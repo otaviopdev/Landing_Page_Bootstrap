@@ -1,0 +1,108 @@
+.box-fix {
+  position: relative;
+  top: 60px;
+}
+.bg-top {
+  width: 100%;
+  height: 500px;
+  background-image: url("../images/bg.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  position: relative;
+}
+
+.overlay {
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(40, 40, 40, 0.4);
+}
+.fix-zindex {
+  position: relative;
+  z-index: 2;
+}
+
+.texto-bg {
+  display: inline-block;
+  margin-top: 100px;
+  color: white;
+}
+
+.espaco30 {
+  padding-right: 30px;
+}
+.chamada {
+  background-color: #3fa3c5;
+  padding: 8px 0;
+  color: white;
+}
+.chamada h2 {
+  font-size: 34px;
+}
+
+section .sobre {
+  padding: 30px 0;
+}
+.custum-title {
+  position: relative;
+}
+
+.custum-title h2 {
+  color: #888;
+  font-size: 25px;
+  margin-top: 10px;
+}
+.custum-title div {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 70px;
+  height: 4px;
+  background-color: #3fa3c5;
+}
+
+.diferenciais {
+  padding: 10px 0;
+  color: #646464;
+}
+.diferenciais h2 {
+  padding: 10px 0;
+  border-bottom: 1px solid #ccc;
+}
+.diferencias .col-md-4 {
+  padding: 0 40px;
+}
+.convite {
+  background-color: #3fa3c5;
+  padding: 10px 0;
+}
+
+.convite h2 {
+  color: white;
+  font-size: 24px;
+  margin-top: 1px;
+}
+.convite input[type="email"] {
+  width: calc(100% - 100px);
+  height: 40px;
+  vertical-align: top;
+}
+.convite button {
+  width: 100px;
+  height: 40px;
+}
+.contato {
+  background-color: #ccc;
+  padding: 10px;
+}
+
+.footer {
+  background-color: #3fa3c5;
+}
+.footer.col-md-12 {
+  padding: 10px 0;
+}
